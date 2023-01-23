@@ -1,17 +1,20 @@
 import React from 'react'
-import { Box, Input, FormLabel } from '@mui/material'
+import Post from './Post'
+import {Box} from '@mui/material'
 
 function Feed() {
   return (
-    <Box bgcolor='skyblue' flex={4} p={2}>
-      <FormLabel >
-        <Input 
-          type='text'
-          />
-        
-      </FormLabel>
-    
-    
+    <Box flex={4} p={{ xs: 0, md: 2 }}>
+
+  
+    <>
+    <Post /> 
+    <Post /> 
+    <Post /> 
+    <Post /> 
+    <Post /> 
+    <Post /> 
+    </>
     
     
     

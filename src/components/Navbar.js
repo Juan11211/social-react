@@ -34,7 +34,7 @@ function Navbar() {
     <AppBar position='sticky'>
         <StyledToolBar>
             <Typography sx={{ display: { xs: 'none', sm: 'block'}}}>
-        Navbar
+        Juan A Social Feed
         </Typography>
         <CodeOff sx={{ display: { xs: 'block', sm: 'none'}}}/>
         <Search><InputBase placeholder="Search..."/></Search>
